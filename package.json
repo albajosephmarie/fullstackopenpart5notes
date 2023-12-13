@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node index.js uByy7QZ7rEBWpJgT",
+    "dev": "nodemon index.js uByy7QZ7rEBWpJgT",
     "start:dbg": "node --inspect index.js",
     "dev:dbg": "nodemon --inspect index.js",
     "build:ui": "rm -rf dist && cd ../notes-frontend && npm run build && cp -r dist ../notes-backend",
